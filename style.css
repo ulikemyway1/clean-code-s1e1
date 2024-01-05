@@ -168,3 +168,7 @@ button {
 .task_edit .task__label {
   display: none;
 }
+
+#main_title {
+  display: none;
+}

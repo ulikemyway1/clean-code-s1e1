@@ -6,19 +6,20 @@
     <link rel="stylesheet" href="style.css" media="screen" charset="utf-8">
   </head>
   <body>
-    <div class="matrix-info">
+    <h1 id="main_title">Todo App RSS2024 ULIKEMYWAY</h1>
+    <section class="matrix-info">
       <img src="./eisenhower-matrix.jpg" class="matrix-info__img" alt="Eisenhower Matrix">
       <a class="matrix-info__link" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
-    </div>
-    <div class="to-do-app">
-      <p class="task_add">
+    </section>
+    <section class="to-do-app">
+      <div class="task_add">
         <label for="new-task" class="task__label" class="app-part-title">Add Item</label>
         <div class="task-row-wrapper">
           <input id="new-task"class="task__input" type="text">
           <button class="btn">Add</button>
         </div>
-      </p>
-      <h3 class="app-part-title">Todo</h3>
+      </div>
+      <h2 class="app-part-title">Todo</h2>
       <ul id="to-do-list">
         <li class="task">
           <input type="checkbox" class="task__checkbox">
@@ -37,7 +38,7 @@
           </button>
         </li>
       </ul>
-      <h3 class="app-part-title">Completed</h3>
+      <h2 class="app-part-title">Completed</h2>
       <ul id="completed-tasks-list">
         <li class="task task_completed">
           <input type="checkbox" checked class="task__checkbox">
@@ -49,7 +50,7 @@
           </button>
         </li>
       </ul>
-    </div>
+    </section>
     <script src="app.js"></script>
   </body>
 </html>
